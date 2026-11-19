@@ -14,7 +14,7 @@ flowchart TD
   style common fill:#ffe0b2,stroke:#fb8c00
 ```
 ## Requirements
-::: mermaid
+``` mermaid
 flowchart TD
     subgraph Requirement
         what["What"]
@@ -27,9 +27,9 @@ flowchart TD
     common ~~~ how
     how --> common
   style common fill:#ffe0b2,stroke:#fb8c00
-:::
+```
 ## Actors
-:::mermaid
+``` mermaid
 usecase-beta
     direction LR
     actor requester
@@ -37,7 +37,7 @@ usecase-beta
     common("Common Ground")
     requester --- common
     common --- implementer
-:::
+```
 # Scenarios
 Actors:
 - Requester [R]
