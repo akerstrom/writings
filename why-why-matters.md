@@ -1,7 +1,7 @@
 # Why the Why Matters
 What, Why, How: Building a Common Understanding
 ## Basic
-::: mermaid
+``` mermaid
 flowchart TD
     what["What"]
     why["Why"]
@@ -12,7 +12,7 @@ flowchart TD
     common ~~~ how
     how --> common
   style common fill:#ffe0b2,stroke:#fb8c00
-:::
+```
 ## Requirements
 ::: mermaid
 flowchart TD
